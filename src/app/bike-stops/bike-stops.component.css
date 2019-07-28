@@ -1,0 +1,17 @@
+.bike-stops {
+  padding: 15px;
+  width: 100%;
+}
+
+.bike-stop {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 450px) {
+  .bike-stops {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+  }
+}

@@ -1,0 +1,15 @@
+#map {
+  height: 400px;
+}
+
+.bike-stop-details {
+  width: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 450px) {
+  .bike-stop-details {
+    width: 400px;
+    margin: 0 auto;
+  }
+}

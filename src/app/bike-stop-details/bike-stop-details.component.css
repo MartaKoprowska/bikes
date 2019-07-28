@@ -1,0 +1,52 @@
+.bike-stop {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.bike-stop-title {
+  font-size: 22px;
+  color: #303030;
+  font-weight: bold;
+}
+
+.bike-stop-detail-title {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #676767;
+  font-weight: 500;
+  text-align: center;
+}
+
+.number {
+  line-height: 1;
+  margin-top: -4px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bike-stop-detail-number-bikes {
+  color: #65d197;
+}
+
+.bike-stop-detail-number-places {
+  color: #3f3f3f;
+}
+
+.bike-stop-detail-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bike-stop-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bike-stop-detail-icon {
+  width: 20px;
+  height: 20px;
+}

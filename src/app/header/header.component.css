@@ -1,0 +1,12 @@
+.header {
+  background-color: #000000;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.header-arrow {
+  width: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}

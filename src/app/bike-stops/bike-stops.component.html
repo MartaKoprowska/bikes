@@ -1,0 +1,7 @@
+<div class="bike-stops">
+  <div class="bike-stop" *ngFor="let bikeStop of bikeStops">
+    <app-bike-stop-details (click)="navigateToBikeStopDetails(bikeStop.id)" [bikeStop]="bikeStop"></app-bike-stop-details>
+  </div>
+</div>
+
+
