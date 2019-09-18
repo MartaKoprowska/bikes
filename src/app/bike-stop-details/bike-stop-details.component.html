@@ -6,12 +6,12 @@
     <div class="bike-stop-detail">
       <img src="assets/svg/bike.svg" class="bike-stop-detail-icon" alt="bike">
       <div class="bike-stop-detail-title">Available bikes</div>
-      <div class="number bike-stop-detail-number-bikes">{{bikeStop.properties.bikes}}</div>
+      <div class="number bike-stop-detail-number-bikes" [ngClass]="{'zero': bikeStop.properties.bikes == 0}">{{bikeStop.properties.bikes}}</div>
     </div>
     <div class="bike-stop-detail">
       <img src="assets/svg/padlock.svg" class="bike-stop-detail-icon" alt="padlock">
       <div class="bike-stop-detail-title">Available places</div>
-      <div class="number bike-stop-detail-number-places">{{bikeStop.properties.free_racks}}</div>
+      <div class="number bike-stop-detail-number-places" [ngClass]="{'zero': bikeStop.properties.free_racks == 0}">{{bikeStop.properties.free_racks}}</div>
     </div>
   </div>
 </div>
