@@ -13,9 +13,13 @@ export class BikeStopsService {
   getBikesStops() {
     return this.httpClient.get(this.url)
       .pipe(
-        map(response => {
+        map( (response: any) => {
           this.bikeStops = response.features;
-          return response.features;
+
+          this.bikeStops.sort((a, b) => a.properties.label.localeCompare(b.properties.label));
+
+
+          return this.bikeStops;
         })
       );
   }
